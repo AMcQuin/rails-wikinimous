@@ -10,6 +10,16 @@
   </head>
 
   <body>
+
+    <nav class= "navbar navbar-light bg-light" style="background-color: #e3f2fd;">
+      <!-- Navbar content -->
+      <div class="navbar-brand"><%= link_to "Wikinimous", articles_path %></div>
+      <div class="navbar-text"><%= link_to "New article", new_article_path %>
+
+      </div>
+    </nav>
+
     <%= yield %>
+
   </body>
 </html>
